@@ -1,6 +1,6 @@
 variable "bucket_name" {
   type        = string
-  default      = "play453879123"
+  default      = "naru-453879123"
   description = "enter your Globally unique bucket name"
 }
 
