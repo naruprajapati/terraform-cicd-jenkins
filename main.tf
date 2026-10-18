@@ -9,8 +9,8 @@ resource "aws_s3_bucket" "cicd-bucket" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0c02fb55956c7d316"   # Amazon Linux 2 AMI (Mumbai)
-  instance_type = "t2.micro"
+  ami           = "ami-01a00762f46d584a1"   # Amazon Linux 2 AMI (Mumbai)
+  instance_type = "t3.micro"
 
   tags = {
     Name = "Terraform-EC2"
